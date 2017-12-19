@@ -1,0 +1,26 @@
+{
+  "name": "timestamp_api",
+  "version": "0.0.1",
+  "description": "API to return unix timestamp or natural date of passed string",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amannanrhe/timestamp_api.git"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "express-handlebars": "^3.0.0",
+    "morgan": "~1.6.1"
+  },
+  "author": "aman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amannanrhe/timestamp_api/issues"
+  },
+  "homepage": "https://github.com/amannanrhe/timestamp_api#readme"
+}
