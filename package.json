@@ -11,11 +11,8 @@
     "url": "git+https://github.com/amannanrhe/timestamp_api.git"
   },
   "dependencies": {
-    "body-parser": "~1.13.2",
     "debug": "~2.2.0",
-    "express": "~4.13.1",
-    "express-handlebars": "^3.0.0",
-    "morgan": "~1.6.1"
+    "express": "~4.13.1"
   },
   "author": "aman",
   "license": "MIT",

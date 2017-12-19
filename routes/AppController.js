@@ -17,7 +17,6 @@ router.get('/:id', function (req, res, next) {
 
     if(message && isNaN(message)){
         date = new Date(message);
-        console.log(Date.parse(date));
         if(!isNaN(Date.parse(date))){
             result = {unix:Date.UTC(date.getUTCFullYear(),date.getUTCMonth(), date.getUTCDate())/1000, natural:message};
         } else{

@@ -7,6 +7,6 @@ var app = express();
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routeIndex);
 
-app.listen(5000);
+app.listen(3000);
 
 module.exports = app;
