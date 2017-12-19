@@ -1,11 +1,14 @@
+//App setup for required modules
 var express = require('express');
 var router = express.Router();
 var path = require('path');
 
+//Get request sends index page with usage details
 router.get('/', function (req, res, next) {
     res.sendFile(path.resolve(__dirname, '../views/index.html'));
 });
 
+//Get request with information passed sends natural date and utc or null for invalid data
 router.get('/:id', function (req, res, next) {
     var message = req.params.id
     var result;
@@ -26,7 +29,7 @@ router.get('/:id', function (req, res, next) {
     res.send(result);
 });
 
-
+//function to create a natural date string from utc stamp
 function getDateString(date){
     var monthNum = date.getUTCMonth();
     var month;
